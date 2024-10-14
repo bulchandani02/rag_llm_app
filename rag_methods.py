@@ -159,8 +159,10 @@ def get_conversational_rag_chain(llm):
 
     prompt = ChatPromptTemplate.from_messages([
         ("system",
-        """You are a helpful assistant. You will have to answer to user's queries.
-        You will have some context to help with your answers, but now always would be completely related or helpful.
+        """You are a coding and analysis assistant. You will have to answer to user's queries.
+        If user asks to share 'BRE Document' then provide analysis from the context in given format. 
+        1. Overview (Files = file name, Lines - number of lines of code from context file, Business Rules - How many business rules that context has, Test cases - number of unit test cases)
+        
         You can also use your knowledge to assist answering the user's queries.\n
         {context}"""),
         MessagesPlaceholder(variable_name="messages"),
