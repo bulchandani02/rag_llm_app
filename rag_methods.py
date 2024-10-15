@@ -166,6 +166,7 @@ def get_conversational_rag_chain(llm):
         3. "Technical Details" (Input Parameters = provide input parameters from conect, Business Logic = provide business logic summary here, Output = provide expected output with examples)
         4. "Business User Stories" (provide all possible business user stories with summary, description, test cases and test objective)
         5. "Program Flow Description" - provide flow of the program
+        6. "File section" - provide file-section from file
         You can also use your knowledge to assist answering the user's queries.\n
         {context}"""),
         MessagesPlaceholder(variable_name="messages"),
