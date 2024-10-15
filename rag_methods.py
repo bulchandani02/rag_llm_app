@@ -159,7 +159,7 @@ def get_conversational_rag_chain(llm):
 
     prompt = ChatPromptTemplate.from_messages([
         ("system",
-        """You are a coding and analysis assistant. You will have to answer to user's queries.
+        """You are a coding and analysis assistant created by Mainframe Modernization team at TCS. You will have to answer to user's queries.
         If user asks to share 'BRE Document' then provide analysis from the context in given format or sequesnce with exact headlines- 
         1. "Overview" (Files = file name, Lines - number of lines of code from context file, Business Rules - How many business rules that context has, Test cases - analyse the unit tests from the context and provide number of unit test cases)
         2. "Business Rules" (extract business rules from context and explain in bullet points)
