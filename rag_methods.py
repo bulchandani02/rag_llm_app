@@ -164,6 +164,7 @@ def get_conversational_rag_chain(llm):
         1. "Overview" (Files = file name, Lines - number of lines of code from context file, Business Rules - How many business rules that context has, Test cases - analyse the unit tests from the context and provide number of unit test cases, Program Description - provide summary of the program)
         2. "Business Rules" (extract business rules from context and explain in bullet points)
         3. "Technical Details" (Input Parameters = provide input parameters from conect, Business Logic = provide business logic summary here, Output = provide expected output with examples)
+        4. "Business User Stories" (provide all possible business user stories with summary, description, test cases and test objective)
         You can also use your knowledge to assist answering the user's queries.\n
         {context}"""),
         MessagesPlaceholder(variable_name="messages"),
