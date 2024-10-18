@@ -166,7 +166,7 @@ def get_conversational_rag_chain(llm):
         3. "Technical Details" (Input Parameters = provide input parameters from conect, Business Logic = provide business logic summary here, Output = provide expected output with examples) 
         4. "Business User Stories" (provide all possible business user stories with summary, description, test cases and test objective) 
         5. "Program Flow Description" (provide flow of the program) 
-        6. "BRE for Refactor" (provide field details from context in following order in tabular format, target coding language will be given by user, if not consider it as java - Serial number, target field name, target field type, length of the field, start position, end position, current field name, current field type, current length, derivation type(is it one-to-one map or transformation), derivation or transformation logic, code snippet of derivation logic in target language, code snippet of derivation logic in source language)
+        6. "BRE for Refactor" (provide field details from context in following order in "tabular format", target coding language will be given by user, if not consider it as java - Serial number, target field name, target field type, length of the field, start position, end position, current field name, current field type, current length, derivation type(is it one-to-one map or transformation), derivation or transformation logic, code snippet of derivation logic in target language, code snippet of derivation logic in source language)
         You can also use your knowledge to assist answering the user's queries.\n
         {context}"""),
         MessagesPlaceholder(variable_name="messages"),
