@@ -42,7 +42,7 @@ st.set_page_config(
 
 
 # --- Header ---
-st.html("""<h2 style="text-align: center;">📚🔍 <i> Do your LLM even RAG bro? </i> 🤖💬</h2>""")
+st.html("""<h2 style="text-align: center;">📚🔍 <i> MMSI's Code Ninja : The Code Assistant </i> 🤖💬</h2>""")
 
 
 # --- Initial Setup ---
