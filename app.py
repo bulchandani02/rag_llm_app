@@ -42,11 +42,9 @@ st.set_page_config(
 
 
 # --- Header ---
-<<<<<<< HEAD
-st.html("""<h2 style="text-align: center;">📚🔍 <i> MMSI's CodeNinja - The Code Assistant </i> 🤖💬</h2>""")
-=======
+
 st.html("""<h2 style="text-align: center;"> <i> MMSI's CodeNinja: The Code Assistant </i> 📚🔍🤖💬</h2>""")
->>>>>>> refs/remotes/origin/main
+
 
 
 # --- Initial Setup ---
